@@ -1,7 +1,16 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 	<head>
-		<title>Custom Theme Title</title>
+		<meta charset="<?php bloginfo('charset'); ?>" />
+		<title><?php wp_title(); ?></title>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+		<?php if (is_singular() && get_option('thread_comments')) {
+			wp_enqueue_script('comment-reply');
+		} ?>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+		<?php wp_head(); ?>
 	</head>
 	<body>
 		<?php
