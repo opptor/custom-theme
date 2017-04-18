@@ -18,9 +18,9 @@
 			while (have_posts()) : the_post(); ?>
 				<h3><?php the_title(); ?></h3>
 				<div><?php the_content(); ?></div>
-			<?php endwhile;
-		endif;
-		?>
+			<?php endwhile; ?>
+		<?php endif; ?>
+		<?php wp_footer(); ?>
 	</body>
 </html>
 
