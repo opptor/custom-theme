@@ -13,6 +13,12 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>WELCOME TO OUR CUSTOM SITE</h1>
+			</div>
+		</div>
+
 		<div class="container">
 			<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
