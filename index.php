@@ -8,13 +8,14 @@
 		<?php if (is_singular() && get_option('thread_comments')) {
 			wp_enqueue_script('comment-reply');
 		} ?>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />-->
+<!--		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />-->
+
 		<?php wp_head(); ?>
 	</head>
 	<body>
 		<div class="jumbotron">
-			<div class="container">
+			<div class="container text-center">
 				<h1>WELCOME TO OUR CUSTOM SITE</h1>
 			</div>
 		</div>

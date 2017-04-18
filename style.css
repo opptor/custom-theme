@@ -10,3 +10,12 @@
 	Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 	Text Domain: custom-theme
 */
+
+.jumbotron {
+	background: #E4F5FC; /* Old browsers */
+	background: -moz-linear-gradient(left, #E4F5FC 6%, #BFE8F9 21%, #2AB0ED 78%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #E4F5FC 6%, #BFE8F9 21%, #2AB0ED 78%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #E4F5FC 6%, #BFE8F9 21%, #2AB0ED 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=1); /* IE6-9 */
+	color: #FFF;
+}
